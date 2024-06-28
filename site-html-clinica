@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clínica Dentária Sorriso Real </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-Image"></div>
+        <img src="https://vicalvarodental.com/wp-content/uploads/2021/09/Dentist-Banner5.jpg" alt="Imagem de Cabeçalho da Clínica Dentária Sorriso Real">
+    </div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Clínica Dentária Sorriso Real">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#agendamento">Agendamento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1> <font color="purple" CLínica Dentária Sorriso Real< /font>
+        <p>Oferecemos cuidados dentários de qualidade para toda a família.</p>
+        <a href="#agendamento" class="cta-button">Agende sua consulta</a>
+    </section>
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Nossa clínica trabalha com dedicação para oferecer tratamento dentário de qualidade para toda sua familia...</p>
+    </section>
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Limpeza Dentária</li>
+            <li>Ortodontia</li>
+            <li>Implantes</li>
+            <li>Clareamento</li>
+    </ul>
+</section>
+<section id="horarios">
+    <h2>Horários de Atendimento</h2>
+    <table border="1" width="250" cellspacing="5" 
+        <thead>
+            <tr>
+                <th>Dia da Semana</th>
+                <th>Horário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda-feira</td>
+                <td>08:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Terça-feira</td>
+                <td>08:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Quarta-feira</td>
+                <td>08:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Quinta-feira</td>
+                <td>08:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Sexta-feira</td>
+                <td>08:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>08:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td>Fechado</td>
+            </tr>
+        </tbody>
+    </table>
+    <section id="agendamento"> 
+        <h2>Agendamento</h2>
+        <img src="https://hospitalauxiliadora.com.br/wp-content/uploads/2015/03/agendamento-01.png" alt="Ícone de Horário" class="horarios-icon">
+        <form action="submit_agendamento.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+            <button type="submit">Agendar</button>
+        </form>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Endereço: Rua Tiradentes, 810</p>
+        <p>Telefone: (41) 444-444</p>
+        <p>Email: contato@clinicadentariaSorrisoreal.com.br</p>
+    </section>
+    <footer>
+        <p>&copy;<strong>2024 Clínica Dentária Sorriso Real</strong></p>
+    </footer>
+</body>
+</html>
